@@ -1,24 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Hero from './components/Hero';
+import Future from './components/Future';
+import IceBlast from './components/IceBlast';
+import Choose from './components/Choose';
+import BehindScene from "./components/BehindScene"
+import Work from "./components/Work"
+import Number from "./components/Number"
+import Team from "./components/Team"
+import Faq from "./components/Faq"
+import Blast from "./components/Blast"
+import News from './components/News';
+import Mailing from "./components/Mailing"
+import Footer from "./components/Footer"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Hero />
+      <Future />
+      <IceBlast />
+      <Choose />
+      <BehindScene />
+      <Number />
+      <Work />
+      <Team />
+      <Faq />
+      <Blast />
+      <News />
+      <Mailing />
+      <Footer />
+
+
+
+
+    </>
   );
 }
 
